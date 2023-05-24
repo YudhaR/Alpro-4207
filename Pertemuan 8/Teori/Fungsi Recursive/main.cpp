@@ -90,16 +90,21 @@ int faktorial(int a){
 
 int main()
 {
-    cout << "" << endl;
+    cout << "==========================================================" << endl;
+    cout << "| Program Fungsi Rekursif ( penjumlahan, pengurangan, pe |" << endl;
+    cout << "| rkalian, pembagian, pangkat, fibonaci, dan faktorial ) |"<< endl;
+    cout << "==========================================================" << endl;
     int x, y;
-    cout << "Masukkan Bilangan Pertama: ";
+    cout << "Masukkan Bilangan Pertama : ";
     cin >> x;
-    cout << "Masukkan Bilangan Kedua: ";
+    cout << "Masukkan Bilangan Kedua : ";
     cin >> y;
+    cout << "==========================================================" << endl;
     cout << "Penjumlahan dari bilangan " << x << " dan " << y << " : " << penjumlahan(x,y) << endl;
     cout << "Pengurangan dari bilangan " << x << " dan " << y << " : " << pengurangan(x,y) << endl;
     cout << "Perkalian dari bilangan " << x << " dan " << y << " : " << perkalian(x,y) << endl;
     cout << "Pembagian dari bilangan " << x << " dan " << y << " : " << pembagian(x,y) << endl;
+    cout << "==========================================================" << endl;
     cout << "Fibonaci index ke-" << x << " : " << fibonaci(x) << endl;
     for(int i=0; i<=x ;i++){
         cout << fibonaci(i) << " ";
@@ -110,8 +115,10 @@ int main()
         cout << fibonaci(i) << " ";
     }
     cout << endl;
+    cout << "==========================================================" << endl;
     cout << "Faktorial bilangan " << x << " : " << faktorial(x) << endl;
     cout << "Faktorial bilangan " << y << " : " << faktorial(y) << endl;
     cout << "Pangkat : " << pangkat(x, y) << endl;
+    cout << "==========================================================" << endl;
     return 0;
 }
